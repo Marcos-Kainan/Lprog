@@ -39,12 +39,6 @@ class Aula1{ // main do codigo
         for (int i = 0; i < 2; i++)
         { // condição de repetição para imprimir os valores de z
             Console.WriteLine(z[i]); // imprime o valor de z 
-        }
-/*    
-        x = zeros(0,4,2);
-        foreach(double i in ) {
-            Console.WriteLine(i);
-        }*/
-        // esta dando erro na variavel x corrijir
+            }
     }
 }

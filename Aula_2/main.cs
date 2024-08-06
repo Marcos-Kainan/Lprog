@@ -33,4 +33,3 @@ class Aula2{ // main do codigo
       ImprimirAluno(aluno2);// chamda de funçãp para imprimir os valores de aluno2
     }
   }
-// introdução para introdução para manipulação de objeto:
