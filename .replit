@@ -1,7 +1,7 @@
-entrypoint = "main.cs"
 
 hidden = ["bin", "obj"]
 modules = ["dotnet-7.0"]
+run = "dotnet run"
 
 [env]
 DOTNET_NOLOGO = "1"
@@ -12,8 +12,8 @@ DOTNET_CLI_HOME = "$XDG_CACHE_HOME"
 requiredFiles = [".replit", "replit.nix"]
 
 [nix]
-channel = "stable-23_11"
+channel = "stable-24_05"
 
 [deployment]
-run = ["dotnet", "run"]
+run = ["sh", "-c", "dotnet run"]
 deploymentTarget = "cloudrun"
