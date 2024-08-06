@@ -1,25 +1,21 @@
 // introdução para introdução para manipulação de objeto:
-using System; //
-
+using System;
 namespace Modelos{
+  
   class Aluno{
-    public string matricula;// declaração de variavel para texto
-    public int periodo;// int variavel de valor inteiro   
-    public Disciplina [] disciplina = new Disciplina [5];
+    public string matricula;
+    public int periodo;
     
-    public void Imprimir(){// declaração de função para imprimir os valores de aluno
-      Console.WrieLIne("***********************");
+    public Disciplina[] disciplinas = new Disciplina[2];
+    
+    public void Imprimir(){
+      Console.WriteLine("***********************");
       
-      Console.WriteLine("Aluno"); // imprime a matricula do aluno
-      Console.WriteLine("Matricula:" + this.matricula); // imprime a matricula do aluno
-      Console.WriteLine("Periodo:" + this.periodo); // imprime o periodo do aluno
-     
-      Console.WrieLIne("***********************");
-    foreach(Disciplina disciplina in disciplinas){
-   
-    disciplina.Imprimir();    
-    }
-    Console.WrieLIne("***********************");
+      Console.WriteLine("Aluno");
+      Console.WriteLine("Matricula:" + this.matricula);
+      Console.WriteLine("Periodo:" + this.periodo);
+      
+      Console.WriteLine("***********************");
     }
   }
-}  
+}
