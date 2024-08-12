@@ -8,10 +8,13 @@ namespace Modelos {// namespace para organização do codigo (localição e cham
 // caso a variavel semestre seja privada o codigo não pode ser acessado por outros objetos
 
     //public int semestre;// variavel para armazenar o periodo do aluno(aula 2)     
+
+    // caso no codigo da main.cs não tenha declarado um periodo para o aluno o codigo ira imprimir o valor padrão 1 nessa codição: Disciplina disciplina1 = new Disciplina()
     
     public Disciplina() : this(1){// construtor para a aula 3 
-    }   // fim do construtor
+    } // fim do construtor
     
+    // O codigo observa o valor registrado para o periodo se for maior ou menor que zero para o aluno o codigo
     private int semestre;// variavel para armazenar o periodo do aluno
     public Disciplina(int semestre){// construtor para a aula 3
    
