@@ -9,11 +9,11 @@ class Aula3{
       matricula = "2023ENEl01"// atribuição de valor para matricula do aluno2
     };
     Disciplina disciplina1 = new Disciplina();// criação de objeto disciplina1
-    disciplina1.nome = "Portugues";
+    disciplina1.nome = "Portugues"; // atribuição de valor para nome da disciplina1
     
-    Disciplina disciplina2 = new Disciplina(3){
-    nome= "Matematica"  
-    };
+    Disciplina disciplina2 = new Disciplina(3){// criação de objeto disciplina2
+    nome= "Matematica" // atribuição de valor para nome da disciplina2 
+    };// fim do objeto disciplina2
     
     aluno1.disciplinas.Add(disciplina1);// adiciona a disciplina1 ao aluno1
     aluno2.disciplinas.Add(disciplina1);// adiciona a disciplina2 ao aluno2

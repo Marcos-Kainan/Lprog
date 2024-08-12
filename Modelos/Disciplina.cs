@@ -5,18 +5,23 @@ namespace Modelos {// namespace para organização do codigo (localição e cham
   class Disciplina {// classe para criação de objeto
     // para a realização de manipulação de objeto é necessario criar os atributos ou variaveis para armazenamento de dados
       public string nome;// variavel para armazenar a matricula do aluno
-//    public int semestre;// variavel para armazenar o periodo do aluno
-     
-    public Disciplina() : this(1){ 
-    }   
-      private int semestre;
-    public Disciplina(int semestre){
-      if(semestre > 0){
-        this.semestre = semestre;
-      }else{
-        this.semestre = 1;
-      }
-    }
+// caso a variavel semestre seja privada o codigo não pode ser acessado por outros objetos
+
+    //public int semestre;// variavel para armazenar o periodo do aluno(aula 2)     
+    
+    public Disciplina() : this(1){// construtor para a aula 3 
+    }   // fim do construtor
+    
+    private int semestre;// variavel para armazenar o periodo do aluno
+    public Disciplina(int semestre){// construtor para a aula 3
+   
+      if(semestre > 0){// condição de se periodo for maior a 0
+        this.semestre = semestre;// atribuição de valor para semestre da disciplina
+      }else{// se não
+        this.semestre = 1;// atribuição de valor para periodo do aluno
+      }// fim do if
+    
+    }// fim do construtor
 
       public void Imprimir() {// metodo para imprimir os dados do aluno
         Console.WriteLine("-----------------------");// imprime uma linha de asteriscos
