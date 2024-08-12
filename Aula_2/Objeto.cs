@@ -46,6 +46,8 @@ class AulaObjeto {// classe para criação de objeto
    
     
     // condição proposta para a realização de manipulação de objeto com o codigo esse codigo em Aluno.cs:public List<Disciplina>disciplinas = new List<Disciplina>();
+   
+// para a criação de lista
 
     aluno1.disciplinas.Add(disciplina1);// adiciona a disciplina1 ao aluno1
     aluno1.disciplinas.Add(disciplina2);// adiciona a disciplina2 ao aluno1
