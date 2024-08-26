@@ -2,9 +2,11 @@
 using System;// entrada para uso
 
 namespace Modelos {// namespace para organização do codigo (localição e chamada de codigo dentro da pasta)              
+  
   class Disciplina {// classe para criação de objeto
     // para a realização de manipulação de objeto é necessario criar os atributos ou variaveis para armazenamento de dados
-      public string nome;// variavel para armazenar a matricula do aluno
+  
+    public string nome;// variavel para armazenar a matricula do aluno
 // caso a variavel semestre seja privada o codigo não pode ser acessado por outros objetos
 
     //public int semestre;// variavel para armazenar o periodo do aluno(aula 2)     
@@ -34,10 +36,6 @@ namespace Modelos {// namespace para organização do codigo (localição e cham
        this.nome = nome;// atribuição de valor para nome da disciplina 
       }// fim do if
     } // fim do construtor
-
-        public Disciplina(string v1, int v2)
-        {
-        }
 
         public void Imprimir() {// metodo para imprimir os dados do aluno
         Console.WriteLine("-----------------------");// imprime uma linha de asteriscos

@@ -23,7 +23,7 @@ class Aula1{ // main do codigo
         return z;// retorno ou saida do valor amarzenado em z para main
     }
     public static void Main(string[] args){ // metodo principal
-/*        int v = 0; // variavel inteira 
+        int v = 0; // variavel inteira 
         Console.WriteLine(v);// imprime o valor da variavel v
 
         double y = f(1, 2, 3, 4);// atribuição de valor para função f
@@ -34,11 +34,12 @@ class Aula1{ // main do codigo
         Console.WriteLine("Resultado:");
         y = f(x, 2, 3, 4); // entrada de valor para a função f(esperando digitar o valor de x via teclado)
         Console.WriteLine(y);//imprime o valor de y
-*/
+/*
         double[] z = zeros(0, 4, 2); // entrada de valor para a função zeros      
         for (int i = 0; i < 2; i++)
         { // condição de repetição para imprimir os valores de z
             Console.WriteLine(z[i]); // imprime o valor de z 
             }
+*/        
     }
 }

@@ -22,7 +22,8 @@ class Aula3{
     nome= "Matematica" // atribuição de valor para nome da disciplina2 
     };// fim do objeto disciplina2
 
-    Disciplina disciplina3 = new Disciplina(3,"Calculo");
+    Disciplina disciplina3 = new Disciplina(3,"Calculo");//atribuição de valor para nome da disciplina no aluno3
+     // o codigo para aluno3 os dados do aluno não estão protejido ainda pode ser modificado
     
     
     aluno1.disciplinas.Add(disciplina1);// adiciona a disciplina1 ao aluno1
