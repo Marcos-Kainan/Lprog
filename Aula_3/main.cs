@@ -3,7 +3,7 @@ using Modelos;
 
 class Aula3{
   static void Main(string[] args){
-    Aluno aluno1 = new Aluno();// criação de objeto aluno1
+   /* Aluno aluno1 = new Aluno();// criação de objeto aluno1
     aluno1.matricula = ("2024ENEl01");// atribuição de valor para matricula do aluno1
    
     Aluno aluno2 = new Aluno(3){// criação de objeto aluno2
@@ -33,6 +33,6 @@ class Aula3{
     
     aluno1.Imprimir();// chama o metodo imprimir do aluno1  
     aluno2.Imprimir();// chama o metodo imprimir do aluno2
-    aluno3.Imprimir();// chama o metodo imprimir do aluno3
+    aluno3.Imprimir();// chama o metodo imprimir do aluno3*/
   }
 }
