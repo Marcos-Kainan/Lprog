@@ -1,14 +1,33 @@
 using System;
+using System.Collections.Generic;
 namespace Modelos {
 
     class Professor {
-        public string nome;
-          public string matricula;
-        public void Imprimir() {
-            Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>");
-            Console.WriteLine(" Nome do Professor:" + this.nome);
-            Console.WriteLine ("Matricula: "+ this.matricula);
-            Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>");    
+        private string nome;
+        private string matricula;
+
+        public string Nome{
+            get=>this.nome;
+            set{
+                if(!String.IsNullOrWhiteSpace(value)){
+                     this.nome=value;
+                 }
+            }
+        }
+        public string Matricula{
+            get => this.matricula;
+            set{
+                if(!String.IsNullOrWhiteSpace(value)){
+                 this.matricula=value;
+                }
+            }
+        }
+        public void Imprimir(){
+                Console.WriteLine("**************************************");
+                Console.WriteLine("Professor");
+                Console.WriteLine("Nome: "+this.Nome);
+                Console.WriteLine("Matricula: "+this.Matricula);
+                Console.WriteLine("**************************************");
         }
     }
 }
